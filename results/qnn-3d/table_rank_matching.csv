@@ -1,0 +1,7 @@
+config,entangled,reach_cut0,reach_cut1,reach_cut2,reach_min
+product / local,False,2,2,2,2
+product / +ZZ,False,2,2,2,2
+product / +ZZZ,False,2,2,2,2
+entangling ring x1,True,5,5,5,5
+entangling ring x2,True,13,13,13,13
+entangling ring x3,True,13,13,13,13

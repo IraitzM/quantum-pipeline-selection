@@ -1,0 +1,17 @@
+overlap,encoding,entangling_capacity,model,test_bacc,time_s
+0.0,Z (product),0.0,QSVM,0.4583,25.0
+0.0,Z+ZZ linear,0.5881,QSVM,0.6458,28.3
+0.0,Z+ZZ full,0.7528,QSVM,0.6146,30.2
+0.0,RBF-SVM (classical),,RBF-SVM,0.5521,
+0.3,Z (product),0.0,QSVM,0.4583,24.3
+0.3,Z+ZZ linear,0.5881,QSVM,0.5417,26.1
+0.3,Z+ZZ full,0.7528,QSVM,0.5833,27.4
+0.3,RBF-SVM (classical),,RBF-SVM,0.5521,
+0.5,Z (product),0.0,QSVM,0.4583,20.8
+0.5,Z+ZZ linear,0.5881,QSVM,0.5208,25.5
+0.5,Z+ZZ full,0.7528,QSVM,0.4479,27.4
+0.5,RBF-SVM (classical),,RBF-SVM,0.4792,
+0.7,Z (product),0.0,QSVM,0.4479,20.9
+0.7,Z+ZZ linear,0.5881,QSVM,0.5417,25.3
+0.7,Z+ZZ full,0.7528,QSVM,0.4688,27.1
+0.7,RBF-SVM (classical),,RBF-SVM,0.4271,

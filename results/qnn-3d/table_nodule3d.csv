@@ -1,0 +1,6 @@
+encoding,entangling_capacity,model,test_bacc,time_s
+Z (product),0.0,QSVM,0.575,134.9
+Z+ZZ linear,0.7084,QSVM,0.6,190.7
+Z+ZZ full,0.9922,QSVM,0.6083,349.7
+RBF-SVM (8 pooled feat.),,RBF-SVM,0.625,
+RBF-SVM (raw full volume),,RBF-SVM,0.7083,

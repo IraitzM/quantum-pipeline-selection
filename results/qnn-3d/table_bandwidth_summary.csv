@@ -1,0 +1,21 @@
+dataset,encoding,capacity,mean_test,std_test,mean_test_bw1,modal_bw,n
+2c overlap=0.0,RBF-SVM (tuned),,0.9021,0.0282,,30.0,5
+2c overlap=0.0,Z (product),0.0,0.5813,0.0831,0.5042,8.0,5
+2c overlap=0.0,Z+ZZ full,0.7528,0.8,0.0307,0.6146,2.0,5
+2c overlap=0.0,Z+ZZ linear,0.5881,0.8292,0.0408,0.6125,2.0,5
+2c overlap=0.3,RBF-SVM (tuned),,0.6562,0.0285,,100.0,5
+2c overlap=0.3,Z (product),0.0,0.5917,0.0518,0.4958,8.0,5
+2c overlap=0.3,Z+ZZ full,0.7528,0.5896,0.0693,0.5458,4.0,5
+2c overlap=0.3,Z+ZZ linear,0.5881,0.6062,0.0652,0.525,4.0,5
+2c overlap=0.5,RBF-SVM (tuned),,0.55,0.06,,100.0,5
+2c overlap=0.5,Z (product),0.0,0.5021,0.0468,0.4979,16.0,5
+2c overlap=0.5,Z+ZZ full,0.7528,0.4917,0.048,0.4937,8.0,5
+2c overlap=0.5,Z+ZZ linear,0.5881,0.5063,0.0458,0.5125,16.0,5
+2c overlap=0.7,RBF-SVM (tuned),,0.4979,0.0496,,100.0,5
+2c overlap=0.7,Z (product),0.0,0.4938,0.0534,0.4792,16.0,5
+2c overlap=0.7,Z+ZZ full,0.7528,0.5396,0.0528,0.4896,64.0,5
+2c overlap=0.7,Z+ZZ linear,0.5881,0.5271,0.0394,0.5125,0.5,5
+NoduleMNIST3D,RBF-SVM (tuned),,0.6683,0.0246,,3.0,5
+NoduleMNIST3D,Z (product),0.0,0.6667,0.0132,0.65,1.0,5
+NoduleMNIST3D,Z+ZZ full,0.9922,0.6533,0.0326,0.6333,0.25,5
+NoduleMNIST3D,Z+ZZ linear,0.7084,0.57,0.0495,0.6167,1.0,5

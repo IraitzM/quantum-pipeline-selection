@@ -1,0 +1,6 @@
+encoding,entangling_capacity,mean_bacc,std_bacc,n_seeds
+Z+ZZ linear,0.7084,0.6167,0.0445,5
+Z+ZZ full,0.9922,0.6333,0.0236,5
+Z (product),0.0,0.65,0.0437,5
+RBF-SVM (8 pooled feat.),,0.6583,0.0283,5
+RBF-SVM (raw full volume),,0.7217,0.0095,5

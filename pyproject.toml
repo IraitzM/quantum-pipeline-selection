@@ -1,0 +1,24 @@
+[project]
+name = "epj-pipeline-selection-code"
+version = "1.0.0"
+description = "Reproduction code for 'Selecting and Configuring a Quantum Classification Pipeline from Data Diagnostics and Device Budgets'"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.14"
+# The versions that produced the results in results/.
+dependencies = [
+    "matplotlib==3.11.0",
+    "medmnist==3.0.2",
+    "numpy==2.4.6",
+    "pandas==2.3.3",
+    "pennylane==0.45.0",
+    "scikit-learn==1.9.0",
+    "torch==2.12.1",
+    "wfdb==4.3.1",
+    "kernel-trainer",
+]
+
+[tool.uv.sources]
+kernel-trainer = { git = "https://github.com/IraitzM/kernel-trainer", tag = "v0.1.9" }
+# The same dependency the working repository uses for the 2c checkerboard
+# generator. Only code/datasets.py imports it, and only for that template.

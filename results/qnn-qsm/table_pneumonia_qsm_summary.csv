@@ -1,0 +1,4 @@
+model,test_bacc_mean,test_bacc_std,train_bacc_mean
+"QSM (simulated, hardware-infeasible)",0.764,0.0174,0.9845
+amplitude embedding (matched N),0.8,0.0343,
+RBF-SVM raw pixels (matched N),0.8373,0.018,

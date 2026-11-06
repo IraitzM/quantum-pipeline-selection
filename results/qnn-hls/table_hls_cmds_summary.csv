@@ -1,0 +1,11 @@
+representation,model,mean,std
+spectral,MLP,0.825,0.0348
+spectral,QSM,0.8033,0.0665
+spectral,RBF,0.7433,0.0657
+spectral,amplitude,0.7733,0.0462
+spectral,angle (pooled),0.545,0.0506
+waveform,MLP,0.46,0.0458
+waveform,QSM,0.4817,0.0224
+waveform,RBF,0.4983,0.0037
+waveform,amplitude,0.5033,0.0192
+waveform,angle (pooled),0.5,0.0

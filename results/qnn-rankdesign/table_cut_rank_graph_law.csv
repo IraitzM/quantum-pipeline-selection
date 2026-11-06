@@ -1,0 +1,11 @@
+degree,structure,description,entanglers,crossing_count,graph_cut_rank,channel_prediction,bipartition_law,measured_rank,measured_rank_centred,seeds,cut_cap
+6,one_edge,both gates on a single crossing edge,"[(1, (0, 2)), (5, (0, 2))]",2,1,12,12.0,12,12,8,169
+6,share_inside,two edges sharing the wire inside the cut,"[(1, (0, 2)), (5, (0, 3))]",2,1,12,,13,13,8,169
+6,share_outside,two edges sharing the wire outside the cut,"[(1, (0, 2)), (5, (1, 2))]",2,1,12,,13,13,8,169
+6,disjoint,two edges sharing no wire,"[(1, (0, 2)), (5, (1, 3))]",2,2,16,16.0,16,16,8,169
+6,share_inside_x2,2 gates alternating over two edges sharing wire 0,"[(1, (0, 2)), (5, (0, 3))]",2,1,12,,13,13,8,169
+6,one_edge_x2,"2 gates all on the single edge (0,2)","[(1, (0, 2)), (5, (0, 2))]",2,1,12,12.0,12,12,8,169
+6,share_inside_x3,3 gates alternating over two edges sharing wire 0,"[(1, (0, 2)), (5, (0, 3)), (4, (0, 2))]",3,1,13,,13,13,8,169
+6,one_edge_x3,"3 gates all on the single edge (0,2)","[(1, (0, 2)), (5, (0, 2)), (4, (0, 2))]",3,1,13,13.0,13,13,8,169
+6,share_inside_x4,4 gates alternating over two edges sharing wire 0,"[(1, (0, 2)), (5, (0, 3)), (4, (0, 2)), (2, (0, 3))]",4,1,13,,13,13,8,169
+6,one_edge_x4,"4 gates all on the single edge (0,2)","[(1, (0, 2)), (5, (0, 2)), (4, (0, 2)), (2, (0, 2))]",4,1,13,13.0,13,13,8,169

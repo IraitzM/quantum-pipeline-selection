@@ -1,0 +1,51 @@
+representation,seed,model,test_bacc
+waveform,42,QSM,0.45
+waveform,42,amplitude,0.5
+waveform,42,angle (pooled),0.5
+waveform,42,RBF,0.5
+waveform,42,MLP,0.3917
+waveform,43,QSM,0.5
+waveform,43,amplitude,0.5167
+waveform,43,angle (pooled),0.5
+waveform,43,RBF,0.5
+waveform,43,MLP,0.5083
+waveform,44,QSM,0.4917
+waveform,44,amplitude,0.475
+waveform,44,angle (pooled),0.5
+waveform,44,RBF,0.5
+waveform,44,MLP,0.4417
+waveform,45,QSM,0.5
+waveform,45,amplitude,0.5
+waveform,45,angle (pooled),0.5
+waveform,45,RBF,0.5
+waveform,45,MLP,0.4667
+waveform,46,QSM,0.4667
+waveform,46,amplitude,0.525
+waveform,46,angle (pooled),0.5
+waveform,46,RBF,0.4917
+waveform,46,MLP,0.4917
+spectral,42,QSM,0.7917
+spectral,42,amplitude,0.725
+spectral,42,angle (pooled),0.5
+spectral,42,RBF,0.7417
+spectral,42,MLP,0.8583
+spectral,43,QSM,0.7583
+spectral,43,amplitude,0.725
+spectral,43,angle (pooled),0.575
+spectral,43,RBF,0.7417
+spectral,43,MLP,0.8167
+spectral,44,QSM,0.8583
+spectral,44,amplitude,0.8167
+spectral,44,angle (pooled),0.5333
+spectral,44,RBF,0.85
+spectral,44,MLP,0.8583
+spectral,45,QSM,0.725
+spectral,45,amplitude,0.7833
+spectral,45,angle (pooled),0.5
+spectral,45,RBF,0.675
+spectral,45,MLP,0.775
+spectral,46,QSM,0.8833
+spectral,46,amplitude,0.8167
+spectral,46,angle (pooled),0.6167
+spectral,46,RBF,0.7083
+spectral,46,MLP,0.8167

@@ -1,0 +1,7 @@
+dataset,omega_max,k,mean,std,count,angle_pooled_best
+ECG (N vs. PVC),2-3,1,0.7415,0.018,5,0.77
+ECG (N vs. PVC),2-3,2,0.751,0.0058,5,0.77
+EEG seizure,23-24,1,0.514,0.0288,5,0.755
+EEG seizure,23-24,2,0.542,0.0373,5,0.755
+MNIST1D (4-class),10-15,1,0.4475,0.0285,5,0.562
+MNIST1D (4-class),10-15,2,0.5325,0.0443,5,0.562

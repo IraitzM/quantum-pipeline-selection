@@ -1,0 +1,6 @@
+overlap,signal_amp,target_eff_cut0,target_eff_cut1,target_eff_cut2,target_hard_cut0,target_hard_cut1,target_hard_cut2,target_hard_max
+0.0,0.478,4.34,1.31,4.34,4,1,4,4
+0.3,0.478,4.37,1.79,4.36,4,1,4,4
+0.5,0.48,4.35,2.03,4.36,4,1,4,4
+0.7,0.419,4.46,2.56,4.46,4,2,4,4
+1.0,0.062,6.03,5.78,5.98,7,6,6,7

@@ -1,0 +1,26 @@
+seed,encoding,entangling_capacity,model,test_bacc,time_s
+42,Z (product),0.0,QSVM,0.575,114.1
+42,Z+ZZ linear,0.7084,QSVM,0.6,155.7
+42,Z+ZZ full,0.9922,QSVM,0.6083,285.0
+42,RBF-SVM (8 pooled feat.),,RBF-SVM,0.625,
+42,RBF-SVM (raw full volume),,RBF-SVM,0.7083,
+43,Z (product),0.0,QSVM,0.675,108.6
+43,Z+ZZ linear,0.7084,QSVM,0.675,153.6
+43,Z+ZZ full,0.9922,QSVM,0.65,283.3
+43,RBF-SVM (8 pooled feat.),,RBF-SVM,0.675,
+43,RBF-SVM (raw full volume),,RBF-SVM,0.7333,
+44,Z (product),0.0,QSVM,0.65,108.5
+44,Z+ZZ linear,0.7084,QSVM,0.65,153.0
+44,Z+ZZ full,0.9922,QSVM,0.6417,285.0
+44,RBF-SVM (8 pooled feat.),,RBF-SVM,0.6333,
+44,RBF-SVM (raw full volume),,RBF-SVM,0.725,
+45,Z (product),0.0,QSVM,0.6667,108.8
+45,Z+ZZ linear,0.7084,QSVM,0.5917,153.0
+45,Z+ZZ full,0.9922,QSVM,0.6083,284.0
+45,RBF-SVM (8 pooled feat.),,RBF-SVM,0.6667,
+45,RBF-SVM (raw full volume),,RBF-SVM,0.7167,
+46,Z (product),0.0,QSVM,0.6833,108.9
+46,Z+ZZ linear,0.7084,QSVM,0.5667,153.9
+46,Z+ZZ full,0.9922,QSVM,0.6583,283.7
+46,RBF-SVM (8 pooled feat.),,RBF-SVM,0.6917,
+46,RBF-SVM (raw full volume),,RBF-SVM,0.725,

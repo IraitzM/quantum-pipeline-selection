@@ -1,0 +1,5 @@
+model,test_bacc_mean,test_bacc_std
+"QSM (best-val, early stop)",0.6588,0.0267
+"QSM (final epoch 100, overtrained)",0.665,0.0421
+RBF-SVM (raw),0.7875,0.0193
+MLP (h=64),0.6925,0.0288

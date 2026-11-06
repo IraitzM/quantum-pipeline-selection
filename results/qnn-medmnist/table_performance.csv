@@ -1,0 +1,9 @@
+dataset,model,train_bacc,test_bacc,test_f1,n_params,train_time_s,n_support
+"PneumoniaMNIST (2D, 2x4 pooled)",QNN (entangled ansatz + local meas.),0.8033333333333333,0.6566666666666667,0.6549760493082772,114.0,210.0,
+"PneumoniaMNIST (2D, 2x4 pooled)",QNN (entangled ansatz + entangled meas.),0.8383333333333334,0.7166666666666667,0.7166383304997166,130.0,231.7,
+"PneumoniaMNIST (2D, 2x4 pooled)",QNN (product ansatz + local meas.),0.815,0.73,0.7296365113096497,114.0,139.7,
+"PneumoniaMNIST (2D, 2x4 pooled)",QNN (product ansatz + entangled meas.),0.785,0.7133333333333334,0.7122976047102904,130.0,149.2,
+"PneumoniaMNIST (2D, 2x4 pooled)",RBF-SVM,0.8266666666666667,0.7633333333333333,0.7633096642997633,,,343.0
+"PneumoniaMNIST (2D, 2x4 pooled)","MLP (iso-param, h=2)",0.8166666666666667,0.7533333333333333,0.7522321428571429,24.0,,
+"PneumoniaMNIST (2D, 2x4 pooled)",MLP (h=32),0.8383333333333334,0.77,0.7696903614859978,354.0,,
+PneumoniaMNIST (raw 28x28),RBF-SVM (raw pixels),0.97,0.8366666666666667,0.8353328628557986,,,208.0

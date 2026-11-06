@@ -1,0 +1,23 @@
+family,label,degree,cut,entanglers,n_crossing,count_law,factorised_law,measured,search_saturated,matches_factorised,count_law_undercounts,seeds_3,seeds_6,seeds_12
+cut-locality,no crossing entangler,4,01|23,"[(1, (0, 1)), (2, (2, 3)), (3, (0, 1))]",0,1,1.0,1,True,True,False,1,1,1
+cut-locality,no crossing entangler,6,01|23,"[(1, (0, 1)), (2, (2, 3)), (3, (0, 1))]",0,1,1.0,1,True,True,False,1,1,1
+"same count, different edges","both gates on (0,2)",6,01|23,"[(2, (0, 2)), (4, (0, 2))]",2,12,12.0,12,True,True,False,12,12,12
+"same count, different edges","(0,2) and (0,3), share qubit 0",6,01|23,"[(2, (0, 2)), (4, (0, 3))]",2,12,,13,True,False,True,13,13,13
+"same count, different edges","(0,2) and (1,3), disjoint",6,01|23,"[(2, (0, 2)), (4, (1, 3))]",2,12,16.0,16,True,True,True,16,16,16
+"same count, different edges","(0,3) and (1,2), disjoint",6,01|23,"[(2, (0, 3)), (4, (1, 2))]",2,12,16.0,16,True,True,True,16,16,16
+disjoint edges multiply,"(0,2)x[1] + (1,3)x[]",4,01|23,"[(1, (0, 2))]",1,4,4.0,4,True,True,False,4,4,4
+disjoint edges multiply,"(0,2)x[1] + (1,3)x[2]",4,01|23,"[(1, (0, 2)), (2, (1, 3))]",2,9,16.0,16,True,True,True,16,16,16
+disjoint edges multiply,"(0,2)x[1, 3] + (1,3)x[2]",4,01|23,"[(1, (0, 2)), (2, (1, 3)), (3, (0, 2))]",3,9,36.0,36,True,True,True,36,36,36
+disjoint edges multiply,"(0,2)x[1, 3] + (1,3)x[1, 3]",4,01|23,"[(1, (0, 2)), (1, (1, 3)), (3, (0, 2)), (3, (1, 3))]",4,9,81.0,81,True,True,True,81,81,81
+disjoint edges multiply,"(0,2)x[1] + (1,3)x[3]",6,01|23,"[(1, (0, 2)), (3, (1, 3))]",2,12,16.0,16,True,True,True,16,16,16
+disjoint edges multiply,"(0,2)x[1, 5] + (1,3)x[3]",6,01|23,"[(1, (0, 2)), (3, (1, 3)), (5, (0, 2))]",3,13,48.0,48,True,True,True,48,48,48
+disjoint edges multiply,"(0,2)x[1, 5] + (1,3)x[1, 5]",6,01|23,"[(1, (0, 2)), (1, (1, 3)), (5, (0, 2)), (5, (1, 3))]",4,13,144.0,142,True,False,True,138,142,142
+disjoint edges multiply,"(0,2)x[1, 3, 5] + (1,3)x[1, 5]",6,01|23,"[(1, (0, 2)), (1, (1, 3)), (3, (0, 2)), (5, (0, 2)), (5, (1, 3))]",5,13,156.0,154,False,False,True,152,152,154
+interleaving,no interleaved gate,6,01|23,"[(1, (0, 2)), (5, (0, 2))]",2,12,12.0,12,True,True,False,12,12,12
+interleaving,"(0,1) before both, layer 0",6,01|23,"[(0, (0, 1)), (1, (0, 2)), (5, (0, 2))]",2,12,12.0,12,True,True,False,12,12,12
+interleaving,"(0,1) interleaved, layer 3",6,01|23,"[(1, (0, 2)), (3, (0, 1)), (5, (0, 2))]",2,12,12.0,13,True,False,True,13,13,13
+interleaving,"(2,3) interleaved, layer 3",6,01|23,"[(1, (0, 2)), (3, (2, 3)), (5, (0, 2))]",2,12,12.0,13,True,False,True,13,13,13
+interleaving,"both sides interleaved, layer 3",6,01|23,"[(1, (0, 2)), (3, (0, 1)), (3, (2, 3)), (5, (0, 2))]",2,12,12.0,16,True,False,True,16,16,16
+single-qubit cut,"1 crossing on (0,1)",6,0|123,"[(1, (0, 1))]",1,4,4.0,4,True,True,False,4,4,4
+single-qubit cut,"2 crossing on (0,1)",6,0|123,"[(1, (0, 1)), (5, (0, 1))]",2,12,12.0,12,True,True,False,12,12,12
+single-qubit cut,"3 crossing on (0,1)",6,0|123,"[(1, (0, 1)), (3, (0, 1)), (5, (0, 1))]",3,13,13.0,13,True,True,False,13,13,13

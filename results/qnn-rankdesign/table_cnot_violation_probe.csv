@@ -1,0 +1,22 @@
+gate,label,target_rank,ka,kb,target_seed,n_max,gap_at_64,gap_at_max,shrank,still_negative,gap_limit,gap_limit_lo,gap_limit_hi,draws_negative,n_draws
+cnot,"positive control: rank 1, structural",1,0,1,0,256,-0.107684659272133,-0.09554476572968595,True,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,1,256,-0.05410289028603277,-0.04989611524424198,True,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,2,256,-0.18522498630795936,-0.18522498630795936,False,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,3,256,-0.17086367301172933,-0.1667136873476207,True,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,4,256,-0.21338221329026585,-0.2133392405146004,True,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,5,256,-0.2420172334919013,-0.2416010588024472,True,True,,,,,
+cnot,"positive control: rank 1, structural",1,0,1,-1,256,-0.16221260927667003,-0.15871997565775942,True,True,-0.15657518658256886,-0.16274295716426973,-0.15407591778308846,6.0,6.0
+cnot,under test: rank 2,2,1,2,0,1024,-0.09943749997213414,-0.019874712405593353,True,True,,,,,
+cnot,under test: rank 2,2,1,2,1,1024,-0.012761557638907906,0.04365191230531662,False,False,,,,,
+cnot,under test: rank 2,2,1,2,2,1024,0.0031034085203199835,0.003103408520316875,False,False,,,,,
+cnot,under test: rank 2,2,1,2,3,1024,-0.0014785829298220587,0.006069175915337954,False,False,,,,,
+cnot,under test: rank 2,2,1,2,4,1024,-0.066925151187056,-0.06885177389116615,False,True,,,,,
+cnot,under test: rank 2,2,1,2,5,1024,-0.09333172121805744,-0.06566085744381278,True,True,,,,,
+cnot,under test: rank 2,2,1,2,-1,1024,-0.045138517404276435,-0.0169271411666001,True,True,-0.011454412744142384,-0.01903157577318082,-0.007690133200300531,3.0,6.0
+crz,"negative control: rank 2, tied",2,1,2,0,1024,0.04500614610179954,1.3485018285797068e-05,True,False,,,,,
+crz,"negative control: rank 2, tied",2,1,2,1,1024,-0.0010448462544274673,0.00010050848454656869,True,False,,,,,
+crz,"negative control: rank 2, tied",2,1,2,2,1024,-0.023924256764451313,0.007692103209808732,True,False,,,,,
+crz,"negative control: rank 2, tied",2,1,2,3,1024,0.035041683244556476,-0.010386236398439164,True,True,,,,,
+crz,"negative control: rank 2, tied",2,1,2,4,1024,-0.017011704260910365,0.014949687001620915,True,False,,,,,
+crz,"negative control: rank 2, tied",2,1,2,5,1024,-0.0014524662840447178,0.0028682328165366977,False,False,,,,,
+crz,"negative control: rank 2, tied",2,1,2,-1,1024,0.006102425963753655,0.0025396300220599244,True,False,0.0027381292354854425,-0.007867950791040985,0.01172943507378434,1.0,6.0

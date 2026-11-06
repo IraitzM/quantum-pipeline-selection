@@ -1,0 +1,8 @@
+dataset,upload_t,mean,std,count
+MNIST1D (4-class),0.05,0.5325,0.0311,5
+MNIST1D (4-class),0.075,0.5575,0.0495,5
+MNIST1D (4-class),0.1,0.605,0.0703,5
+MNIST1D (4-class),0.125,0.64,0.0302,5
+MNIST1D (4-class),0.15,0.6588,0.043,5
+MNIST1D (4-class),0.2,0.6925,0.0291,5
+MNIST1D (4-class),0.3,0.6537,0.0137,5
