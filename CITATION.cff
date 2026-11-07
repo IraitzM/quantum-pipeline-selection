@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article it accompanies."
+type: software
+title: "quantum-pipeline-selection: reproduction code for Selecting and Configuring a Quantum Classification Pipeline from Data Diagnostics and Device Budgets"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/IraitzM/quantum-pipeline-selection"
+authors:
+  - family-names: "Montalbán"
+    given-names: "Iraitz"
+    affiliation: "University of Oviedo"
+  - family-names: "Ranilla"
+    given-names: "José"
+    affiliation: "University of Oviedo"
+  - family-names: "Combarro"
+    given-names: "Elías F."
+    affiliation: "University of Oviedo"
+# Placeholder until a release of this repository is archived with a DOI (for example through Zenodo):
+# identifiers:
+#   - type: doi
+#     value: "RELEASE_DOI"
+#     description: "Archived release with the code, per-seed results and frozen protocols of the article"
+preferred-citation:
+  type: article
+  # Placeholder until publication: set status to in-press (or remove it) and fill in the fields below.
+  status: in-preparation
+  title: "Selecting and Configuring a Quantum Classification Pipeline from Data Diagnostics and Device Budgets"
+  authors:
+    - family-names: "Montalbán"
+      given-names: "Iraitz"
+      affiliation: "University of Oviedo"
+    - family-names: "Ranilla"
+      given-names: "José"
+      affiliation: "University of Oviedo"
+    - family-names: "Combarro"
+      given-names: "Elías F."
+      affiliation: "University of Oviedo"
+  # journal: "EPJ Quantum Technology"
+  # volume: VOLUME
+  # year: YEAR
+  # doi: "ARTICLE_DOI"

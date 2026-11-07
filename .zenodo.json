@@ -1,0 +1,28 @@
+{
+  "title": "quantum-pipeline-selection: reproduction code for 'Selecting and Configuring a Quantum Classification Pipeline from Data Diagnostics and Device Budgets'",
+  "description": "Reproduction code for the EPJ Quantum Technology article. Simulates angle encoding with data re-uploading, amplitude embedding and the quantum spectral model (QSM) on signal, image and volume tasks, plus the synthetic checkerboard, and computes the two training-free diagnostics (one FFT, one SVD) the selection procedure rests on. All simulations are noiseless and use exact expectation values. Companion code to the Quantum Machine Intelligence article 'How Quantum Data Encoding Constrains Representation Learning'.",
+  "creators": [
+    {
+      "name": "Montalbán, Iraitz",
+      "affiliation": "University of Oviedo"
+    },
+    {
+      "name": "Ranilla, José",
+      "affiliation": "University of Oviedo"
+    },
+    {
+      "name": "Combarro, Elías F.",
+      "affiliation": "University of Oviedo"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "quantum machine learning",
+    "quantum data encoding",
+    "quantum spectral model",
+    "reproducibility",
+    "EPJ Quantum Technology"
+  ]
+}

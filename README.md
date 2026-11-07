@@ -7,8 +7,9 @@ signal, image and volume tasks, plus the synthetic 2c checkerboard, and it
 computes the two measurements the article's procedure rests on, one FFT and one
 SVD. Every simulation is noiseless and uses exact expectation values.
 
-It is the companion repository of the Quantum Machine Intelligence article
-"How Quantum Data Encoding Constrains Representation Learning", whose code
+It is the companion repository of the article
+"Where Quantum Classifiers Lose Accuracy:
+Pooling, Encoding, and Training", whose code
 reproduces the accessibility ladder, the pooling screens, the feature probes and
 the regime map that this article cites. The two repositories are deliberately
 disjoint in their experiment scripts: what the companion article reports is
@@ -113,12 +114,13 @@ recorded in `run_hankel_qsm.py`, and the restart shares behind "no entangled
 configuration above rank one converged from more than four per cent of starts"
 are computed inside `run_restart_convergence.py`.
 
-## Differences from the working repository
+## Citation
 
-This is a trimmed standalone copy of the MLST-era code behind the archived
-manuscript in `archive/paper/`, not of the QMI companion `qenc` library. The
-three DFT helpers of `code/dft.py` are extracted verbatim from the working
-repository's `code/main.py`, and `run_signal_regression.py` imports them from
-there. `code/__init__.py` is emptied so importing the package does not pull in
-modules this repository does not ship. No experiment script, model or protocol
-is otherwise modified.
+If you use this code, please cite the article it accompanies. `CITATION.cff`
+holds the reference; it will be completed with the journal, volume and DOI once
+the article is published. The archived release DOI will be added here once the
+Zenodo record is minted.
+
+## Licence
+
+MIT, see `LICENSE`.
